@@ -2,7 +2,7 @@
 
 **Name:** GUO YIHAN  
 **Matriculation ID:** G2506255B  
-**Email:** GUOY0065@ntu.edu.sg  
+**Email:** GUOY0065@e.ntu.edu.sg  
 
 ---
 
