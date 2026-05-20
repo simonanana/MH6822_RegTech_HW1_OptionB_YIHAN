@@ -4,8 +4,6 @@
 **Matriculation ID:** G2506255B  
 **Email:** GUOY0065@e.ntu.edu.sg  
 
----
-
 ## Overview
 
 **Option B — Architecture Design with Quantitative Demonstration**
