@@ -163,7 +163,3 @@ pip install scikit-learn lightgbm shap lime fairlearn pandas numpy matplotlib se
 2. Open `Task3_Notebook_RegTech_v4_fixed.ipynb` in Jupyter or Google Colab.
 3. Run all cells sequentially. All outputs (metrics, figures, dashboard, governance card, adverse action notices) are generated automatically.
 4. The compliance dashboard is saved as `compliance_dashboard_v4.png`.
-
----
-
-*MH6822 Regulatory Technology — NTU, May 2026*
