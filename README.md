@@ -1,7 +1,4 @@
-# MH6822 Regulatory Technology — Assignment 1
-## Designing a Jurisdiction-Aware RegTech Tool
-
----
+# MH6822 HW1 Designing a Jurisdiction-Aware RegTech Tool
 
 **Name:** GUO YIHAN  
 **Matriculation ID:** G2506255B  
