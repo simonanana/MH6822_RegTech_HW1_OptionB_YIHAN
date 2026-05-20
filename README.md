@@ -16,8 +16,6 @@ This repository contains all deliverables for MH6822 Assignment 1. The project d
 **Domain:** AI Model Risk Management for Retail Credit Decisioning  
 **Jurisdictions:** 🇺🇸 US (OCC 2026-13) × 🇸🇬 Singapore (MAS 2024/2025 AI MRM + FEAT)
 
----
-
 ## Repository Structure
 
 ```
@@ -29,8 +27,6 @@ This repository contains all deliverables for MH6822 Assignment 1. The project d
 ├── Task3_Slides_Presentation.pdf                     # Task 3: senior management pitch deck (PDF)
 ├── README.md                                         # This file
 ```
-
----
 
 ## Task 1 — Selection and Research
 
@@ -50,7 +46,6 @@ This repository contains all deliverables for MH6822 Assignment 1. The project d
 | Min Gini | 0.35 | 0.30 |
 | IV/WoE documentation | Implied (conceptual soundness) | Explicit per-feature justification required |
 
----
 
 ## Task 2 — Values Audit
 
@@ -63,8 +58,6 @@ Answers four mandatory questions before any design:
 3. **Genuine risk measurement vs documentation compliance:** PSI monitoring (not mandated by name in either regulation) and IV/WoE analysis (auditable numeric feature justification) are included because they improve substantive risk detection. A uniform automated sign-off workflow was excluded precisely because it serves documentation over substance.
 
 4. **Who bears the cost if the tool gets it wrong?** False negatives harm consumers. False positives harm business lines. Fairness mismeasurement harms protected groups. Jurisdictional misconfiguration — applying US rules where SG rules should apply — produces confidently wrong compliance assertions and harms consumers, compliance officers, and senior management simultaneously.
-
----
 
 ## Task 3 — Tool Design: Jurisdiction-Aware Credit MRM Platform
 
@@ -126,8 +119,6 @@ By explicit design choice:
 - **Panel D:** Jurisdiction Decision Matrix (PASS/WARN/FAIL side-by-side, US vs SG)
 - **Panel E:** Divergence Heatmap (magnitude of regulatory gap across six dimensions)
 
----
-
 ## Data Note
 
 The prototype uses the **German Credit Dataset (UCI/Kaggle)** as an open, reproducible benchmark. DBS realism is injected via:
@@ -136,8 +127,6 @@ The prototype uses the **German Credit Dataset (UCI/Kaggle)** as an open, reprod
 - (c) Veritas 2.0 FEAT methodology used by Singapore banks including DBS
 
 In production, this platform would ingest Singapore Credit Bureau (CBS) scores, DBS internal model outputs, and MAS macro stress scenario data.
-
----
 
 ## Key References
 
@@ -149,8 +138,6 @@ In production, this platform would ingest Singapore Credit Bureau (CBS) scores, 
 - FDIC DBS Resolution Plan: https://www.fdic.gov/system/files/2024-07/dbs-165-1312.pdf
 - arXiv: Information-Theoretic Framework for WoE/IV (2025): https://arxiv.org/html/2408.03497v3
 - PMC: LightGBM + SHAP for Credit Scoring Transparency (2024): https://pmc.ncbi.nlm.nih.gov/articles/PMC11318906
-
----
 
 ## Dependencies
 
@@ -171,8 +158,6 @@ Install all dependencies:
 ```bash
 pip install scikit-learn lightgbm shap lime fairlearn pandas numpy matplotlib seaborn
 ```
-
----
 
 ## How to Run
 
