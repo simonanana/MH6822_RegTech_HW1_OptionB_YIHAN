@@ -1,7 +1,7 @@
 # MH6822 HW1 Designing a Jurisdiction-Aware RegTech Tool
 
 **Name:** GUO YIHAN  
-**Matriculation ID:** G2506255B  
+**Matriculation Number:** G2506255B  
 **Email:** GUOY0065@e.ntu.edu.sg  
 
 ## Overview
