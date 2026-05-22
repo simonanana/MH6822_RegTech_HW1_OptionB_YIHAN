@@ -1,5 +1,7 @@
 Name: GUO YIHAN
+
 Matriculation Number: G2506255B
+
 Email: GUOY0065@e.ntu.edu.sg
 
 ---
