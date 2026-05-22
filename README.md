@@ -1,10 +1,8 @@
-Name: GUO YIHAN
+**Name:** GUO YIHAN
 
-Matriculation Number: G2506255B
+**Matriculation Number:** G2506255B
 
-Email: GUOY0065@e.ntu.edu.sg
-
----
+**Email:** GUOY0065@e.ntu.edu.sg
 
 # MH6822 Regulatory Technology — Assignment 1
 
@@ -13,8 +11,6 @@ Email: GUOY0065@e.ntu.edu.sg
 > **Option B — Architecture Design with Quantitative Demonstration**  
 > Regulated entity: **DBS Bank Limited** · Domain: **AI Model Risk Management for Retail Credit Decisioning**  
 > Jurisdictions: 🇺🇸 US (OCC Bulletin 2026-13) × 🇸🇬 Singapore (MAS AI MRM 2024 · MAS AI Guidelines 2025 · FEAT Principles · Veritas Toolkit v2.0)
-
----
 
 ## Table of Contents
 
@@ -27,7 +23,6 @@ Email: GUOY0065@e.ntu.edu.sg
 - [Dependencies](#dependencies)
 - [References](#references)
 
----
 
 ## Overview
 
@@ -37,7 +32,6 @@ The central argument, drawn from the course lectures: **RegTech tools are politi
 
 **Regulated entity**: DBS Bank Limited (SGX: D05), the largest bank in Southeast Asia by total assets (~SGD 754 billion, FY2024), selected for its documented US presence (FINRA broker-dealer, FDIC resolution-plan filer) and its direct participation in the MAS Veritas Consortium.
 
----
 
 ## Repository Structure
 
@@ -104,7 +98,6 @@ Credit decisioning is selected because it is: (a) high-stakes — model outputs 
 
 The most consequential divergence is the **PSI threshold asymmetry**: at PSI ∈ [0.20, 0.25], the same model simultaneously requires retrain review in Singapore and warrants only monitoring in the US. The platform flags this as a jurisdiction divergence event rather than silently resolving it.
 
----
 
 ## Task 2 — Values Audit
 
@@ -138,7 +131,6 @@ The tool is also designed to protect **consumer interests** beyond what many pay
 | Fairness mismeasurement | Protected groups | Discriminatory patterns concealed from examiner and consumer |
 | **Jurisdictional misconfiguration** | All stakeholders | Produces confidently wrong compliance assertions — the most dangerous failure mode |
 
----
 
 ## Task 3 — Tool Design
 
@@ -215,11 +207,6 @@ Stated explicitly because honest scoping is itself a governance requirement:
 | 12 | Adverse Action Notices | CFPB Reg B format (US) vs MAS FEAT / PDPA format (SG) |
 | 13 | Model Governance Card | Full JSON governance card with failure modes and limitations |
 
-### Compliance Dashboard
-
-![Compliance Dashboard](compliance_dashboard.png)
-
-*Panel A: Performance vs US / SG thresholds · Panel B: Fairness by Sex · Panel C: PSI drift with jurisdiction divergence zone · Panel D: Decision matrix (US × SG) · Panel E: Divergence heatmap*
 
 ### Quantitative Results
 
@@ -238,7 +225,6 @@ Stated explicitly because honest scoping is itself a governance requirement:
 
 The Q2 PSI result is the quantitative centrepiece: the same model, the same drift measurement, simultaneously compliant in the US and requiring retrain review in Singapore — the jurisdiction divergence the platform is built to surface.
 
----
 
 ## How to Run
 
@@ -265,7 +251,6 @@ Open `Task3_Notebook_HW1.ipynb` in Jupyter Lab, Jupyter Notebook, or Google Cola
 
 > **Google Colab**: Cell 1 installs any missing packages automatically. Upload `german_credit_data.csv` to the Colab session storage before running.
 
----
 
 ## Dependencies
 
@@ -284,19 +269,16 @@ seaborn      >= 0.12
 
 A `requirements.txt` is included for one-command installation.
 
----
 
 ## Task 4
 
 Per the assignment brief, Task 4 (10%) consists of questions tailored to this submission, to be answered after submission. Every design choice in the tool, the notebook, and the report carries a named rationale and a regulatory anchor; every limitation is stated explicitly in the model governance card (Notebook Section 13) and the full tool design report.
 
----
 
 ## Data Note
 
 The prototype uses the **German Credit Dataset** as an open, reproducible benchmark. In production, this platform would ingest Singapore Credit Bureau (CBS) scores, DBS internal behaviour scores, and MAS Financial Stability Review macro stress scenarios. DBS realism is injected through: (a) bad-rate calibration consistent with DBS's disclosed retail NPL profile; (b) direct regulatory mapping to MAS / PDPA / FEAT and OCC 2026-13; (c) the Veritas Toolkit v2.0 FEAT methodology adopted by DBS.
 
----
 
 ## References
 
@@ -322,6 +304,3 @@ The prototype uses the **German Credit Dataset** as an open, reproducible benchm
 - PMC (2024). Credit Scoring Transparency via LightGBM + SHAP. <https://pmc.ncbi.nlm.nih.gov/articles/PMC11318906/>
 - Yurdakul, B. (2018). Statistical Properties of Population Stability Index.
 
----
-
-*MH6822 Regulatory Technology — NTU, May 2026*
