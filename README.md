@@ -71,7 +71,7 @@ The central argument, drawn from the course lectures: **RegTech tools are politi
 ```
 
 > `german_credit_data.csv` is the Kaggle feature subset of the UCI German Credit dataset (N = 1,000).  
-> Original source: [kaggle.com/datasets/uciml/german-credit](https://www.kaggle.com/datasets/uciml/german-credit).
+> **Original source:** [kaggle.com/datasets/uciml/german-credit](https://www.kaggle.com/datasets/uciml/german-credit).
 
 ---
 
